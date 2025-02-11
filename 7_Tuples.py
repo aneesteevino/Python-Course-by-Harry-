@@ -101,3 +101,5 @@ tuple = ("Anees", 1, 2, 3, 4, 5,["anees","ali","ahmed"])
 # print(tuple[::-2]) # it will reverse the tuple with a step of 2
 print(tuple[:]) # it will give the whole tuple 
 print(tuple[::]) # it will give the whole tuple
+
+# you can not directly change the element of the tuple but you can change the element of the list which is in the tuple
