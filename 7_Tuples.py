@@ -108,5 +108,6 @@ tuple = ("Anees", 1, 2, 3, 4, 5,["anees","ali","ahmed"])
 # nested tuple
 
 # tuple = ("Anees", 1, 2, 3, 4, 5,("anees","ali","ahmed"))
+# print(tuple[6][1]) # it will give the element of the tuple which is in the tuple
 
 
