@@ -18,10 +18,14 @@
 # print(tuple[1])
 # print(tuple[1:5])
 
+#  it is also an example of tuple
+# tuple=1,
+# print(type(tuple), tuple)
+
 # if "anees" in tuple:
 #     print("g bhai isme hai ye  nam")
 # else :
-#     print("nahi hai ye nam")
+#     print("nahi hai ye nam")  
 
 # print(tuple[1:3])
 
@@ -70,3 +74,30 @@
 # # tuple1= tuple.index(2) # it will give the index of the element 2 any element covered with index will give the index of the element
 
 # print(len(tuple)) # it will give the length of the tuple
+
+
+# accessing elements of tuple through negative indexing
+
+# tuple=("Anees",1,2,3,4,5)
+# print(tuple[-1]) # it will give the last element of the tuple
+
+# tuple = ("Anees", 1, 2, 3, 4, 5,["anees","ali","ahmed"]) it is updating the list in the tuple
+# tuple[6][1]="khan"
+# print(tuple)
+
+# nested indexing in tuple
+
+# tuple = ("Anees", 1, 2, 3, 4, 5,["anees","ali","ahmed"])
+# print(tuple[6][1]) # it will give the element of the list which is in the tuple
+
+
+# slicing operation in tuple
+
+tuple = ("Anees", 1, 2, 3, 4, 5,["anees","ali","ahmed"])
+# print(tuple[1:5]) # it will give the elements from index 1 to 4
+# print(tuple[1:5:2]) # it will give the elements from index 1 to 4 with a step of 2
+# print(tuple[1:5:3]) # it will give the elements from index 1 to 4 with a step of 3
+# print(tuple[::-1]) # it will reverse the tuple
+# print(tuple[::-2]) # it will reverse the tuple with a step of 2
+print(tuple[:]) # it will give the whole tuple 
+print(tuple[::]) # it will give the whole tuple
