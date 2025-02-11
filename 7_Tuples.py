@@ -103,3 +103,6 @@ tuple = ("Anees", 1, 2, 3, 4, 5,["anees","ali","ahmed"])
 # print(tuple[::]) # it will give the whole tuple
 
 # you can not directly change the element of the tuple but you can change the element of the list which is in the tuple
+
+tuple[1]="khan" # it will give an error because tuple is immutable
+print(tuple) # it will give the whole tuple 
