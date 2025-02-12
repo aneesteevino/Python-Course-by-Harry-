@@ -132,3 +132,92 @@
 # }
 # my_dict['city']="Karachi"
 # print(my_dict)
+
+
+#  mini real world project on  dictionary
+
+# 1. hum dictionaries ko as a phone book use krty hain
+
+
+phone_book = {
+    "Anees": 123456,
+    "Ali": 123456,
+    "Ahmed": 123456,
+    "Salahuddin": 123456,
+    "Sahil": 123456
+}
+
+def print_menu():
+    print("Welcome to the phone book")
+    print("1. Add a contact")
+    print("2. Search a contact")
+    print("3. Delete a contact")
+    print("4. Update a contact")
+    print("5. Show all contacts")
+    print("6. Exit")
+    
+
+def add_contact():
+    name = input("Enter the name: ")
+    try:
+        number = int(input("Enter the number: "))
+        phone_book[name] = number
+        print("Contact added successfully")
+    except ValueError:
+        print("Invalid number. Please enter a valid integer.")
+
+def search_contact():
+    name = input("Enter the name: ")
+    if name in phone_book:
+        print(f"The number of {name} is {phone_book[name]}")
+    else:
+        print("Contact not found")
+
+def delete_contact():
+    name = input("Enter the name: ")
+    if name in phone_book:
+        del phone_book[name]
+        print("Contact deleted successfully")
+    else:
+        print("Contact not found")
+
+def update_contact():
+    name = input("Enter the name: ")
+    if name in phone_book:
+        try:
+            number = int(input("Enter the number: "))
+            phone_book[name] = number
+            print("Contact updated successfully")
+        except ValueError:
+            print("Invalid number. Please enter a valid integer.")
+    else:
+        print("Contact not found")
+
+def show_all_contacts():
+    for name, number in phone_book.items():
+        print(f"The number of {name} is {number}")
+
+def main():
+    while True:
+        print_menu()
+        try:
+            choice = int(input("Enter your choice: "))
+            if choice == 1:
+                add_contact()
+            elif choice == 2:
+                search_contact()
+            elif choice == 3:
+                delete_contact()
+            elif choice == 4:
+                update_contact()
+            elif choice == 5:
+                show_all_contacts()
+            elif choice == 6:
+                break
+            else:
+                print("Invalid choice")
+        except ValueError:
+            print("Invalid input. Please enter a number between 1 and 6.")
+
+if __name__ == "__main__":
+    main()
