@@ -137,3 +137,12 @@
 # to  create an empty set we use the set() function
 # anees=set() # it will create an empty set
 # print(type(anees)) 
+
+
+
+# difference between set and tuple
+# set is mutable but tuple is immutable
+# set is unordered but tuple is ordered
+# set is defined by curly brackets but tuple is defined by round brackets
+# set does not allow duplicate values but tuple allows duplicate values
+# set is used to store multiple items in a single variable but tuple is used to store multiple items in a single variable

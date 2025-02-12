@@ -93,7 +93,7 @@
 
 # slicing operation in tuple
 
-tuple = ("Anees", 1, 2, 3, 4, 5,["anees","ali","ahmed"])
+# tuple = ("Anees", 1, 2, 3, 4, 5,["anees","ali","ahmed"])
 # print(tuple[1:5]) # it will give the elements from index 1 to 4
 # print(tuple[1:5:2]) # it will give the elements from index 1 to 4 with a step of 2
 # print(tuple[1:5:3]) # it will give the elements from index 1 to 4 with a step of 3
@@ -109,5 +109,53 @@ tuple = ("Anees", 1, 2, 3, 4, 5,["anees","ali","ahmed"])
 
 # tuple = ("Anees", 1, 2, 3, 4, 5,("anees","ali","ahmed"))
 # print(tuple[6][1]) # it will give the element of the tuple which is in the tuple
+
+
+
+# Operations on tuple
+
+# concatenation
+
+# tuple1=(1,2,3,4,5)
+# tuple2=("a","b","c","d","e")
+# tuple3=tuple1+tuple2
+# print(tuple3)
+
+# repetition
+
+# tuple1=(1,2,3,4,5)
+# tuple2=("a","b","c","d","e")
+# tuple3=tuple1*2
+# print(tuple3)
+
+# deleting the tuple
+
+# tuple1=(1,2,3,4,5)
+# del tuple1
+
+# deleting the elements of the tuple
+
+# tuple1=(1,2,3,4,5)
+# del tuple1[1] it will give an error because tuple does not support item assignment
+# print(tuple1)
+
+
+# using loops
+
+# tuple1=(1,2,3,4,5)
+# for i in tuple1:  
+#     print(i)
+# print(4 in tuple1) # it will give true if the element is in the tuple otherwise false
+
+
+
+
+# methods of tuple
+
+# 1. count() method
+
+tuple1=(1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10)
+print(tuple1.count(1)) # it will give the count of the element 1 in the tuple
+
 
 
