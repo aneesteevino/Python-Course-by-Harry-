@@ -122,3 +122,13 @@
 # deleting 
 
 
+
+# adding new key value pair
+# my_dict={
+#     'name':"Abdul samad",
+#     'age':20,
+#     'RollNo':"23bsai015",
+#     'Occupation':"Ai Enginner"
+# }
+# my_dict['city']="Karachi"
+# print(my_dict)
