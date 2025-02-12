@@ -81,6 +81,13 @@
 # dic.pop("name")
 # print(dic) # it will remove the element from the dictionary
 
+
+# clear() method ( it will clear the dictionary)
+# example
+# dic  = {"name":"Anees","age":18,"study":"Ai","city":"Karachi"}
+# dic.clear()
+# print(dic) # it will clear the dictionary
+
 # 5 popitem() method ( it will remove the last element from the dictionary)
 # example
 # dic  = {"name":"Anees","age":18,"study":"Ai","city":"Karachi"}
@@ -103,13 +110,15 @@
 # for i in  values:
 #     print(i) # it will print the keys of the dictionary
 
-my_dict={
-    'name':"Abdul samad",
-    'age':20,
-    'RollNo':"23bsai015",
-    'Occupation':"Ai Enginner"
-}
-my_dict['Occupation']="Student"
-print(my_dict)
+# my_dict={
+#     'name':"Abdul samad",
+#     'age':20,
+#     'RollNo':"23bsai015",
+#     'Occupation':"Ai Enginner"
+# }
+# my_dict['Occupation']="Student"
+# print(my_dict)
+
+# deleting 
 
 
